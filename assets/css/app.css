@@ -1,0 +1,17 @@
+body{
+    background-color: #ededed
+}
+
+.img-width {
+    width: 220px;
+    height: 169px;
+}
+.menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-bar, .top-bar, .top-bar-left>ul, .top-bar-right>ul, .dropdown>li>a {
+    background-color: #dd1021;
+    color: #ffc300;
+}

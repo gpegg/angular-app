@@ -1,0 +1,16 @@
+<div class="grid-container" ng-controller="DinnerController">
+        <div class="grid-x grid-padding-x">
+            <div class="large-12 large-centered cell"><h1>{{ title }}</h1></div>
+            <blockquote class="large-12 cell"><h2>{{ promo }}</h2></blockquote>
+        </div>
+        <div class="grid-x grid-padding-x align-center">
+            <div ng-repeat="product in breakfast" class="cell large-4 small-6 menu-items"> 
+                <div class="thumbnail"> 
+                    <img ng-src="{{ product.cover }}" class="img-width"> 
+                    <p class="title">{{ product.name }}</p> 
+                    <p class="price">{{ product.price | currency }} + tax</p> 
+                    <p class="calories">{{ product.calories }} calories</p>
+                </div> 
+            </div>
+        </div>
+    </div>
