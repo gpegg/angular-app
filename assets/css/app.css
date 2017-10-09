@@ -2,10 +2,6 @@ body{
     background-color: #ededed
 }
 
-.img-width {
-    width: 220px;
-    height: 169px;
-}
 .menu-items {
     display: flex;
     justify-content: center;

@@ -38,31 +38,73 @@ garrettApp.controller('MainController',['$scope', function($scope) {
       name: 'Pancakes',
       price: 7,
       calories: 500,
-      cover: 'https://static01.nyt.com/images/2017/03/24/dining/24COOKING-CLASSICPANCAKES/24COOKING-CLASSICPANCAKES-videoSixteenByNineJumbo1600.jpg',
+      cover: 'assets/img/pancakes.jpg',
     },
     {
       name: 'Eggs',
       price: 5,
       calories: 100,
-      cover: 'https://www.incredibleegg.org/wp-content/themes/incredibleegg/assets/images/facts-left-egg.png',
+      cover: 'assets/img/eggs.jpg',
     },
     {
       name: 'Cereal',
       price: 10,
       calories: 400,
-      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Froot-Loops-Cereal-Bowl.jpg/220px-Froot-Loops-Cereal-Bowl.jpg',
+      cover: 'assets/img/cereal.jpg',
     },
     {
       name: 'Muffin',
       price: 10,
       calories: 350,
-      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/BlueberryMuffin.jpg/1200px-BlueberryMuffin.jpg',
+      cover: 'assets/img/muffin.jpg',
     },
     {
       name: 'Bagel',
       price: 10,
       calories: 250,
-      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Bagel-Plain-Alt.jpg/250px-Bagel-Plain-Alt.jpg',
+      cover: 'assets/img/bagel.jpg',
+    },
+    {
+      name: 'Doughnut',
+      price: 10,
+      calories: 250,
+      cover: 'assets/img/donut.jpg',
+    },
+    {
+      name: 'Hot Dogs',
+      price: 7,
+      calories: 500,
+      cover: 'assets/img/hotdog.jpg',
+    },
+    {
+      name: "Mac n' Cheese",
+      price: 5,
+      calories: 100,
+      cover: 'assets/img/mac.jpg',
+    },
+    {
+      name: 'Soups',
+      price: 10,
+      calories: 400,
+      cover: 'assets/img/soup.jpg',
+    },
+    {
+      name: 'Sandwiches',
+      price: 10,
+      calories: 350,
+      cover: 'assets/img/sandwich.jpg',
+    },
+    {
+      name: 'Pizza',
+      price: 10,
+      calories: 250,
+      cover: 'assets/img/pizza.jpg',
+    },
+    {
+      name: 'Salads',
+      price: 10,
+      calories: 250,
+      cover: 'assets/img/salad.jpg',
     }
     ];
   }]);
@@ -74,31 +116,37 @@ garrettApp.controller('BreakfastController',['$scope', function($scope) {
       name: 'Pancakes',
       price: 7,
       calories: 500,
-      cover: 'https://static01.nyt.com/images/2017/03/24/dining/24COOKING-CLASSICPANCAKES/24COOKING-CLASSICPANCAKES-videoSixteenByNineJumbo1600.jpg',
+      cover: 'assets/img/pancakes.jpg',
     },
     {
       name: 'Eggs',
       price: 5,
       calories: 100,
-      cover: 'https://www.incredibleegg.org/wp-content/themes/incredibleegg/assets/images/facts-left-egg.png',
+      cover: 'assets/img/eggs.jpg',
     },
     {
       name: 'Cereal',
       price: 10,
       calories: 400,
-      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Froot-Loops-Cereal-Bowl.jpg/220px-Froot-Loops-Cereal-Bowl.jpg',
+      cover: 'assets/img/cereal.jpg',
     },
     {
       name: 'Muffin',
       price: 10,
       calories: 350,
-      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/BlueberryMuffin.jpg/1200px-BlueberryMuffin.jpg',
+      cover: 'assets/img/muffin.jpg',
     },
     {
       name: 'Bagel',
       price: 10,
       calories: 250,
-      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Bagel-Plain-Alt.jpg/250px-Bagel-Plain-Alt.jpg',
+      cover: 'assets/img/bagel.jpg',
+    },
+    {
+      name: 'Doughnut',
+      price: 10,
+      calories: 250,
+      cover: 'assets/img/donut.jpg',
     }
     ];
   }]);
@@ -107,34 +155,40 @@ garrettApp.controller('BreakfastController',['$scope', function($scope) {
     $scope.title = 'Lunch Menu';
     $scope.promo ='Launch into Lunch';
     $scope.breakfast = [{
-      name: 'Pancakes',
+      name: 'Hot Dogs',
       price: 7,
       calories: 500,
-      cover: 'https://static01.nyt.com/images/2017/03/24/dining/24COOKING-CLASSICPANCAKES/24COOKING-CLASSICPANCAKES-videoSixteenByNineJumbo1600.jpg',
+      cover: 'assets/img/hotdog.jpg',
     },
     {
-      name: 'Eggs',
+      name: "Mac n' Cheese",
       price: 5,
       calories: 100,
-      cover: 'https://www.incredibleegg.org/wp-content/themes/incredibleegg/assets/images/facts-left-egg.png',
+      cover: 'assets/img/mac.jpg',
     },
     {
-      name: 'Cereal',
+      name: 'Soups',
       price: 10,
       calories: 400,
-      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Froot-Loops-Cereal-Bowl.jpg/220px-Froot-Loops-Cereal-Bowl.jpg',
+      cover: 'assets/img/soup.jpg',
     },
     {
-      name: 'Muffin',
+      name: 'Sandwiches',
       price: 10,
       calories: 350,
-      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/BlueberryMuffin.jpg/1200px-BlueberryMuffin.jpg',
+      cover: 'assets/img/sandwich.jpg',
     },
     {
-      name: 'Bagel',
+      name: 'Pizza',
       price: 10,
       calories: 250,
-      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Bagel-Plain-Alt.jpg/250px-Bagel-Plain-Alt.jpg',
+      cover: 'assets/img/pizza.jpg',
+    },
+    {
+      name: 'Salads',
+      price: 10,
+      calories: 250,
+      cover: 'assets/img/salad.jpg',
     }
     ];
   }]);
@@ -146,31 +200,37 @@ garrettApp.controller('BreakfastController',['$scope', function($scope) {
       name: 'Pancakes',
       price: 7,
       calories: 500,
-      cover: 'https://static01.nyt.com/images/2017/03/24/dining/24COOKING-CLASSICPANCAKES/24COOKING-CLASSICPANCAKES-videoSixteenByNineJumbo1600.jpg',
+      cover: 'assets/img/pancakes.jpg',
     },
     {
       name: 'Eggs',
       price: 5,
       calories: 100,
-      cover: 'https://www.incredibleegg.org/wp-content/themes/incredibleegg/assets/images/facts-left-egg.png',
+      cover: 'assets/img/eggs.jpg',
     },
     {
       name: 'Cereal',
       price: 10,
       calories: 400,
-      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Froot-Loops-Cereal-Bowl.jpg/220px-Froot-Loops-Cereal-Bowl.jpg',
+      cover: 'assets/img/cereal.jpg',
     },
     {
       name: 'Muffin',
       price: 10,
       calories: 350,
-      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/BlueberryMuffin.jpg/1200px-BlueberryMuffin.jpg',
+      cover: 'assets/img/muffin.jpg',
     },
     {
       name: 'Bagel',
       price: 10,
       calories: 250,
-      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Bagel-Plain-Alt.jpg/250px-Bagel-Plain-Alt.jpg',
+      cover: 'assets/img/bagel.jpg',
+    },
+    {
+      name: 'Doughnut',
+      price: 10,
+      calories: 250,
+      cover: 'assets/img/donut.jpg',
     }
     ];
   }]);
