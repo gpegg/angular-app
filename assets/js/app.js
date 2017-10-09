@@ -105,6 +105,42 @@ garrettApp.controller('MenuController',['$scope', function($scope) {
       price: 10,
       calories: 250,
       cover: 'assets/img/salad.jpg',
+    },
+    {
+      name: 'Burger',
+      price: 7,
+      calories: 500,
+      cover: 'assets/img/burger.jpg',
+    },
+    {
+      name: "Wings",
+      price: 5,
+      calories: 100,
+      cover: 'assets/img/wings.jpg',
+    },
+    {
+      name: 'Steak',
+      price: 10,
+      calories: 400,
+      cover: 'assets/img/steak.jpg',
+    },
+    {
+      name: 'Salmon',
+      price: 10,
+      calories: 350,
+      cover: 'assets/img/salmon.jpg',
+    },
+    {
+      name: 'Ribs',
+      price: 10,
+      calories: 250,
+      cover: 'assets/img/ribs.jpg',
+    },
+    {
+      name: 'Crab Cake',
+      price: 10,
+      calories: 250,
+      cover: 'assets/img/crabcake.jpg',
     }
     ];
   }]);
