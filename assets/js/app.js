@@ -8,7 +8,7 @@ garrettApp.config(['$routeProvider', function ($routeProvider) {
         // route for the home page
         .when('/', {
             templateUrl : 'views/home.html',
-            controller  : 'MainController'
+            controller  : 'MenuController'
         })
 
         // route for the breakfast page
@@ -31,10 +31,10 @@ garrettApp.config(['$routeProvider', function ($routeProvider) {
 }]);
 
 // create the controller and inject Angular's $scope
-garrettApp.controller('MainController',['$scope', function($scope) {
+garrettApp.controller('MenuController',['$scope', function($scope) {
     $scope.title = 'Our Full Menu';
     $scope.promo ="It's not that big...";
-    $scope.breakfast = [{
+    $scope.menu = [{
       name: 'Pancakes',
       price: 7,
       calories: 500,
@@ -154,7 +154,7 @@ garrettApp.controller('BreakfastController',['$scope', function($scope) {
   garrettApp.controller('LunchController',['$scope', function($scope) {
     $scope.title = 'Lunch Menu';
     $scope.promo ='Launch into Lunch';
-    $scope.breakfast = [{
+    $scope.lunch = [{
       name: 'Hot Dogs',
       price: 7,
       calories: 500,
@@ -196,7 +196,7 @@ garrettApp.controller('BreakfastController',['$scope', function($scope) {
   garrettApp.controller('DinnerController',['$scope', function($scope) {
     $scope.title = 'Dinner Menu';
     $scope.promo ='*Clever Dinner Pun*';
-    $scope.breakfast = [{
+    $scope.dinner = [{
       name: 'Pancakes',
       price: 7,
       calories: 500,
