@@ -1,6 +1,16 @@
 body{
     background-color: #ededed
 }
+footer {
+    background-color: #dd1021;
+    color: #ffc300;
+}
+footer .large-4 {
+    padding-top:15px;
+}
+footer ul {
+    list-style-type: none;
+}
 
 .menu-items {
     display: flex;
@@ -11,3 +21,45 @@ body{
     background-color: #dd1021;
     color: #ffc300;
 }
+
+/****** Social Media CSS ****/
+a.fa-facebook:hover, a.fa-facebook:focus {
+    transition: .35s;
+    text-decoration: none;
+    background-color: #3b5998;
+    color: #fff;
+  }
+  a.fa-twitter:hover, a.fa-twitter:focus {
+    transition: .35s;
+    text-decoration: none;
+    background-color: #4099ff;
+    color: #fff;
+  }
+  a.fa-linkedin:hover, a.fa-linkedin:focus {
+    transition: .35s;
+    text-decoration: none;
+    background-color: #0e76a8;
+    color: #fff;
+  }
+  .fa {
+    font-size: xx-large!important;
+    margin:0px 10px;
+  }
+  .fa-facebook {
+    padding: 15px 20px;
+    border-radius: 50px;
+    background-color: #ffc300;
+    color: #dd1021;
+  }
+  .fa-twitter {
+    padding: 15px 18px;
+    border-radius: 50px;
+    background-color: #ffc300;
+    color: #dd1021;
+  }
+  .fa-linkedin {
+    background-color: #ffc300;
+    color: #dd1021;
+    padding: 15px 17px;
+    border-radius: 50px;
+  }

@@ -7,7 +7,8 @@
     <title>G3 - Garrett's Generic Grill</title>
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="assets/css/foundation.min.css">
-    <link rel="stylesheet" href="assets/css/app.css">    
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />    
     <script src="assets/js/vendor/modernizr.js"></script>
     <script src="assets/js/angular.min.js"></script>
     <script src="assets/js/angular-route.min.js"></script>
@@ -33,6 +34,35 @@
             </div>
         </div>
         <div ng-view></div>
+        <footer>
+            <div class="grid-container" ng-controller="MenuController">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-4 large-centered cell">
+                        <strong>Contact Headquarters:</strong>
+                        <ul>
+                            <li>123 Fake Street</li>
+                            <li>Springfield, Oregon, 97477</li>
+                            <li>Phone: (123) 456-7890</li>
+                            <li>E-Mail: Fake.Email@G3.com</li>
+                        </ul>
+                    </div>
+                    <div class="large-4 large-centered cell">
+                        <strong>We have Social Media!</strong><br><br>
+                        <a class="fa fa-facebook" href="#"></a>
+                        <a class="fa fa-linkedin" href="#"></a>
+                        <a class="fa fa-twitter" href="#"></a>
+                    </div>
+                    <div class="large-4 large-centered cell">
+                        <strong>Legal:</strong>
+                        <ul>
+                            <li>This is not an actual Restaruant.</li>
+                            <li>This is a personal web project.</li>
+                            <li>The contact information is also fake.</li>
+                            <li>Just take the red pill.</li>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <script src="assets/js/vendor/jquery.js"></script>
         <script src="assets/js/vendor/foundation.min.js"></script>
         <script>

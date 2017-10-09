@@ -195,42 +195,78 @@ garrettApp.controller('BreakfastController',['$scope', function($scope) {
 
   garrettApp.controller('DinnerController',['$scope', function($scope) {
     $scope.title = 'Dinner Menu';
-    $scope.promo ='*Clever Dinner Pun*';
+    $scope.promo ='Lunch foods are also dinner foods... but breakfast foods are not.';
     $scope.dinner = [{
-      name: 'Pancakes',
+      name: 'Hot Dogs',
       price: 7,
       calories: 500,
-      cover: 'assets/img/pancakes.jpg',
+      cover: 'assets/img/hotdog.jpg',
     },
     {
-      name: 'Eggs',
+      name: "Mac n' Cheese",
       price: 5,
       calories: 100,
-      cover: 'assets/img/eggs.jpg',
+      cover: 'assets/img/mac.jpg',
     },
     {
-      name: 'Cereal',
+      name: 'Soups',
       price: 10,
       calories: 400,
-      cover: 'assets/img/cereal.jpg',
+      cover: 'assets/img/soup.jpg',
     },
     {
-      name: 'Muffin',
+      name: 'Sandwiches',
       price: 10,
       calories: 350,
-      cover: 'assets/img/muffin.jpg',
+      cover: 'assets/img/sandwich.jpg',
     },
     {
-      name: 'Bagel',
+      name: 'Pizza',
       price: 10,
       calories: 250,
-      cover: 'assets/img/bagel.jpg',
+      cover: 'assets/img/pizza.jpg',
     },
     {
-      name: 'Doughnut',
+      name: 'Salads',
       price: 10,
       calories: 250,
-      cover: 'assets/img/donut.jpg',
+      cover: 'assets/img/salad.jpg',
+    },
+    {
+      name: 'Burger',
+      price: 7,
+      calories: 500,
+      cover: 'assets/img/burger.jpg',
+    },
+    {
+      name: "Wings",
+      price: 5,
+      calories: 100,
+      cover: 'assets/img/wings.jpg',
+    },
+    {
+      name: 'Steak',
+      price: 10,
+      calories: 400,
+      cover: 'assets/img/steak.jpg',
+    },
+    {
+      name: 'Salmon',
+      price: 10,
+      calories: 350,
+      cover: 'assets/img/salmon.jpg',
+    },
+    {
+      name: 'Ribs',
+      price: 10,
+      calories: 250,
+      cover: 'assets/img/ribs.jpg',
+    },
+    {
+      name: 'Crab Cake',
+      price: 10,
+      calories: 250,
+      cover: 'assets/img/crabcake.jpg',
     }
     ];
   }]);
